@@ -1,0 +1,37 @@
+html,body{height:100%;margin:0;font-family:Segoe UI, Arial, sans-serif;color:#111;background:#f5f5f5}
+.site-header{background:#ddd;padding:18px 0;text-align:center;border-bottom:1px solid #c8c8c8}
+.site-title{margin:0;font-size:22px;font-weight:800;letter-spacing:1px}
+.nav-row{margin-top:10px}
+.nav-btn{display:inline-block;margin:0 6px;padding:8px 12px;background:#e8e8e8;border:1px solid #000;color:#000;text-decoration:none;font-weight:600}
+.main-area{max-width:960px;margin:28px auto;background:#fff;padding:20px;border:1px solid #ddd;box-shadow:none}
+.center-block{max-width:640px;margin:0 auto}
+.big-btn{display:inline-block;padding:18px 28px;background:#e8e8e8;border:2px solid #000;color:#000;text-decoration:none;font-size:18px;font-weight:700}
+.page-title{font-size:18px;margin-top:0}
+.search-row{margin:12px 0}
+.search-input{width:60%;padding:8px;border:1px solid #bbb}
+.cards{display:flex;gap:12px;flex-wrap:wrap}
+.card{flex:1 1 30%;border:1px solid #ccc;padding:12px;background:#fff;min-width:200px}
+.image-placeholder{height:100px;background:#f0f0f0;border:1px dashed #bbb;margin-bottom:10px}
+.image-placeholder.large{height:180px}
+.small-btn{display:inline-block;padding:6px 10px;background:#e8e8e8;border:1px solid #000;color:#000;text-decoration:none;font-weight:600}
+.forms-row{display:flex;gap:12px}
+.form-card{flex:1;border:1px solid #ccc;padding:12px;background:#fff}
+.form-card input,.form-card textarea{width:100%;padding:6px;border:1px solid #bbb;margin-bottom:8px}
+.detail-row{display:flex;gap:18px;align-items:flex-start}
+.detail-image{flex:0 0 220px}
+.detail-info{flex:1}
+.lesson-list .lesson{border:1px solid #ddd;padding:10px;margin-bottom:8px;background:#fff}
+.lesson-actions{margin-top:6px}
+.progress-text{font-weight:600;margin-top:10px}
+.simple-table{width:100%;border-collapse:collapse;background:#fff}
+.simple-table th,.simple-table td{border:1px solid #ccc;padding:8px;text-align:left}
+.admin-form .error-msg{color:#a00;background:#ffeeee;padding:8px;border:1px solid #c88;margin-bottom:8px}
+.admin-form .success-msg{color:#060;background:#eeffef;padding:8px;border:1px solid #8c8;margin-bottom:8px}
+.site-footer{background:#ddd;padding:12px 0;text-align:center;margin-top:18px;border-top:1px solid #c8c8c8}
+
+/* Responsive minor rules for narrow screens */
+@media (max-width:700px){
+  .cards{flex-direction:column}
+  .forms-row{flex-direction:column}
+  .detail-row{flex-direction:column}
+}
